@@ -11,31 +11,31 @@ package calculations;
  */
 public class calculations {
     
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jBtnAddActionPerformed(java.awt.event.ActionEvent evt) {                                          
         firstnum = Double.parseDouble(jTextField1.getText());
         jTextField1.setText("");
         operations="+";
     }                                         
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jBtnSubActionPerformed(java.awt.event.ActionEvent evt) {                                          
         firstnum = Double.parseDouble(jTextField1.getText());
         jTextField1.setText("");
         operations="-";
     }                                         
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jBtnMultActionPerformed(java.awt.event.ActionEvent evt) {                                          
         firstnum = Double.parseDouble(jTextField1.getText());
         jTextField1.setText("");
         operations="*";
     }                                         
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jBtnDivActionPerformed(java.awt.event.ActionEvent evt) {                                          
         firstnum = Double.parseDouble(jTextField1.getText());
         jTextField1.setText("");
         operations="/";
     }                                         
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jBtnEqualsActionPerformed(java.awt.event.ActionEvent evt) {                                          
         // αποτελεσμα
         String answer;
         secondnum = Double.parseDouble(jTextField1.getText());
