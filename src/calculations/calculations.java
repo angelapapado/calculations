@@ -19,7 +19,7 @@ public class calculations {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         firstnum = Double.parseDouble(jTextField1.getText());
-        jTextField1.setText("");
+        jTextField1.setText("hello");
         operations="-";
     }                                         
 
